@@ -21,18 +21,18 @@ class AppLocalizations {
     return Localizations.of<AppLocalizations>(context, AppLocalizations);
   }
 
-  String get createPin => Intl.message('Create PIN', name: 'createPin');
+  String get createPin => Intl.message('PIN 만들기', name: 'createPin'); // Create PIN
   String get enterPinCode =>
-      Intl.message('Enter your PIN code', name: 'enterPinCode');
-  String get login => Intl.message('login', name: 'login');
-  String get newAccount => Intl.message('new account', name: 'newAccount');
+      Intl.message('PIN 코드를 입력하세요', name: 'enterPinCode'); // Enter your PIN code
+  String get login => Intl.message('로그인', name: 'login'); // login
+  String get newAccount => Intl.message('새 계정', name: 'newAccount'); // new account
   String get newAccountUpper =>
-      Intl.message('New Account', name: 'newAccountUpper');
+      Intl.message('새 계정', name: 'newAccountUpper'); // New Account
   String addingCoinSuccess(String name) => Intl.message(
         'Activated $name successfully !',
         name: 'addingCoinSuccess',
         args: [name],
-      );
+      ); // Activated $name successfully !
   String get connecting => Intl.message('Connecting...', name: 'connecting');
   String get addCoin => Intl.message('Activate coin', name: 'addCoin');
   String numberAssets(String assets) =>
